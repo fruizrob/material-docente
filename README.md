@@ -8,22 +8,23 @@ Este repositorio contiene únicamente:
 
 - páginas estáticas del sitio;
 - metadatos públicos de materiales publicados;
-- PDFs y presentaciones aprobados explícitamente.
+- PDFs aprobados explícitamente;
+- pautas históricas con respuestas en rojo y sin criterios internos de evaluación.
 
-No contiene fuentes LaTeX, pautas, rúbricas privadas, borradores, evaluaciones activas, datos
-personales ni rutas internas del repositorio de autoría.
+No contiene fuentes LaTeX, rúbricas o criterios privados, borradores, presentaciones,
+evaluaciones activas, datos personales ni rutas internas del repositorio de autoría.
 
-## Estado inicial
+## Estado
 
-El sitio está preparado, pero el catálogo público comienza vacío. Ningún material se publica por
-existir en el repositorio privado.
+El catálogo contiene material de Fundamentos de la Computación 2026-1. Ningún material adicional
+se publica por existir en el repositorio privado.
 
 ## Publicar un material
 
 1. Aprobar el artefacto concreto en el repositorio privado.
-2. Copiar solo la versión estudiantil a su ruta pública estable.
+2. Copiar solo la versión pública aprobada a su ruta estable.
 3. Añadir sus metadatos públicos a `data/materials.json` con estado `published`.
-4. Confirmar ausencia de soluciones, datos personales y metadatos privados.
+4. Confirmar ausencia de criterios internos, datos personales y metadatos privados.
 5. Probar el enlace localmente.
 6. Crear un commit pequeño que incluya el archivo y su entrada de catálogo.
 

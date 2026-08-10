@@ -21,7 +21,8 @@
 
     const meta = document.createElement("p");
     meta.className = "material-meta";
-    meta.textContent = `${material.course} · ${material.term} · ${material.format.toUpperCase()}`;
+    const variant = material.variant === "pauta" ? " · PAUTA" : "";
+    meta.textContent = `${material.course} · ${material.term} · ${material.format.toUpperCase()}${variant}`;
 
     const title = document.createElement("h3");
     const link = document.createElement("a");
