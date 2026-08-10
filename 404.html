@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Página no encontrada · Material docente</title>
+    <style>
+      :root { color: #17243a; background: #f4f1e8; font-family: Inter, system-ui, sans-serif; }
+      body { display: grid; min-height: 100vh; margin: 0; place-items: center; }
+      main { width: min(680px, calc(100% - 40px)); }
+      p { color: #5f6875; font-size: 1.1rem; line-height: 1.6; }
+      h1 { margin: 10px 0 18px; font: 500 clamp(3rem, 10vw, 6rem)/0.95 Georgia, serif; letter-spacing: -0.05em; }
+      a { color: #8f321f; font-weight: 750; text-underline-offset: 4px; }
+      .eyebrow { color: #8f321f; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <p class="eyebrow">Error 404</p>
+        <h1>Página no encontrada.</h1>
+        <p>La dirección puede haber cambiado o el material todavía no está publicado.</p>
+        <p><a id="home-link" href="/">← Volver al catálogo principal</a></p>
+      </section>
+    </main>
+    <script>
+      const parts = window.location.pathname.split("/").filter(Boolean);
+      const projectRoot = window.location.hostname.endsWith(".github.io") && parts.length > 0
+        ? `/${parts[0]}/`
+        : "/";
+      document.querySelector("#home-link").href = projectRoot;
+    </script>
+  </body>
+</html>
