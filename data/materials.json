@@ -4,7 +4,7 @@
   "materials": [
     {
       "id": "fundamentos-2026-1-set-problemas-logica-proposicional",
-      "title": "Pauta: set de problemas de lógica proposicional",
+      "title": "Set de problemas de lógica proposicional",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -19,7 +19,7 @@
     },
     {
       "id": "fundamentos-2026-1-set-problemas-automatas-gramaticas",
-      "title": "Pauta: set de problemas de autómatas y gramáticas",
+      "title": "Set de problemas de autómatas y gramáticas",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -34,7 +34,7 @@
     },
     {
       "id": "fundamentos-2026-1-control-01-conjuntos",
-      "title": "Pauta: Control 01 de conjuntos",
+      "title": "Control 01 de conjuntos",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -49,7 +49,7 @@
     },
     {
       "id": "fundamentos-2026-1-control-01-resiliencia-conjuntos",
-      "title": "Pauta: Control 01 de resiliencia de conjuntos",
+      "title": "Control 01 de resiliencia de conjuntos",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -64,7 +64,7 @@
     },
     {
       "id": "fundamentos-2026-1-control-02-logica-proposicional",
-      "title": "Pauta: Control 02 de lógica proposicional",
+      "title": "Control 02 de lógica proposicional",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -79,7 +79,7 @@
     },
     {
       "id": "fundamentos-2026-1-control-03-afnd-a-afd",
-      "title": "Pauta: Control 03 de conversión de AFND a AFD",
+      "title": "Control 03 de conversión de AFND a AFD",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -94,7 +94,7 @@
     },
     {
       "id": "fundamentos-2026-1-control-04-automata-pila",
-      "title": "Pauta: Control 04 de autómata de pila",
+      "title": "Control 04 de autómata de pila",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -109,7 +109,7 @@
     },
     {
       "id": "fundamentos-2026-1-prueba-sumativa-01",
-      "title": "Pauta: Prueba sumativa 01",
+      "title": "Prueba sumativa 01",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -124,7 +124,7 @@
     },
     {
       "id": "fundamentos-2026-1-prueba-resiliencia",
-      "title": "Pauta: Prueba de resiliencia",
+      "title": "Prueba de resiliencia",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -139,7 +139,7 @@
     },
     {
       "id": "fundamentos-2026-1-prueba-sumativa-02",
-      "title": "Pauta: Prueba sumativa 02",
+      "title": "Prueba sumativa 02",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",
@@ -154,7 +154,7 @@
     },
     {
       "id": "fundamentos-2026-1-examen",
-      "title": "Pauta: Examen",
+      "title": "Examen",
       "course": "ECIN-506",
       "course_slug": "fundamentos",
       "term": "2026-1",

@@ -7,7 +7,22 @@
   const termFilter = body.dataset.term || null;
   const lists = [...document.querySelectorAll("[data-material-list]")];
 
-  const normalizeTopic = (topic) => topic.replaceAll("-", " ");
+  const topicLabels = {
+    acumulativo: "acumulativo",
+    afd: "AFD",
+    afnd: "AFND",
+    "automata-pila": "autómata de pila",
+    automatas: "autómatas",
+    conjuntos: "conjuntos",
+    "fundamentos-computacion": "fundamentos de la computación",
+    gramaticas: "gramáticas",
+    "lenguajes-formales": "lenguajes formales",
+    logica: "lógica",
+    "logica-proposicional": "lógica proposicional",
+    resiliencia: "resiliencia",
+  };
+
+  const normalizeTopic = (topic) => topicLabels[topic] || topic.replaceAll("-", " ");
 
   const isSafePath = (path) =>
     typeof path === "string" &&
@@ -15,14 +30,38 @@
     !path.includes("..") &&
     !path.includes(":");
 
+  const makeListHeader = () => {
+    const header = document.createElement("div");
+    header.className = "material-list-header";
+    header.setAttribute("aria-hidden", "true");
+
+    const metadataLabel = !courseFilter
+      ? "Curso · periodo · formato"
+      : !termFilter
+        ? "Periodo · formato"
+        : "Formato";
+
+    [metadataLabel, "Documento", "Temas"].forEach((label) => {
+      const column = document.createElement("span");
+      column.textContent = label;
+      header.append(column);
+    });
+
+    return header;
+  };
+
   const makeMaterialCard = (material) => {
     const article = document.createElement("article");
     article.className = "material-card";
 
     const meta = document.createElement("p");
     meta.className = "material-meta";
-    const variant = material.variant === "pauta" ? " · PAUTA" : "";
-    meta.textContent = `${material.course} · ${material.term} · ${material.format.toUpperCase()}${variant}`;
+    const metadata = [];
+    if (!courseFilter) metadata.push(material.course);
+    if (!termFilter) metadata.push(material.term);
+    metadata.push(material.format.toUpperCase());
+    if (material.variant === "pauta") metadata.push("PAUTA");
+    meta.textContent = metadata.join(" · ");
 
     const title = document.createElement("h3");
     const link = document.createElement("a");
@@ -70,7 +109,7 @@
         return;
       }
 
-      container.replaceChildren(...matching.map(makeMaterialCard));
+      container.replaceChildren(makeListHeader(), ...matching.map(makeMaterialCard));
     });
 
     document.querySelectorAll("[data-material-count]").forEach((counter) => {
