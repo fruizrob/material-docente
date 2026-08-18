@@ -9,15 +9,16 @@ Este repositorio contiene únicamente:
 - páginas estáticas del sitio;
 - metadatos públicos de materiales publicados;
 - PDFs aprobados explícitamente;
-- pautas históricas con respuestas en rojo y sin criterios internos de evaluación.
+- versiones estudiantiles de Algoritmos, sin pautas ni criterios internos de evaluación;
+- pautas históricas autorizadas de Fundamentos, con respuestas en rojo y sin criterios internos de evaluación.
 
 No contiene fuentes LaTeX, rúbricas o criterios privados, borradores, presentaciones,
 evaluaciones activas, datos personales ni rutas internas del repositorio de autoría.
 
 ## Estado
 
-El catálogo contiene material de Fundamentos de la Computación 2026-1. Ningún material adicional
-se publica por existir en el repositorio privado.
+El catálogo contiene material de Algoritmos 2026-1 y Fundamentos de la Computación 2026-1. Ningún
+material adicional se publica por existir en el repositorio privado.
 
 ## Publicar un material
 
