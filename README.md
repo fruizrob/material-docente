@@ -17,8 +17,8 @@ evaluaciones activas, datos personales ni rutas internas del repositorio de auto
 
 ## Estado
 
-El catálogo contiene material de Algoritmos 2026-1 y Fundamentos de la Computación 2026-1. Ningún
-material adicional se publica por existir en el repositorio privado.
+El catálogo contiene material de Algoritmos 2025-2 y 2026-1, además de Fundamentos de la
+Computación 2026-1. Ningún material adicional se publica por existir en el repositorio privado.
 
 ## Publicar un material
 
