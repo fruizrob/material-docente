@@ -13,6 +13,7 @@
     afnd: "AFND",
     "automata-pila": "autómata de pila",
     automatas: "autómatas",
+    "busqueda-binaria": "búsqueda binaria",
     conjuntos: "conjuntos",
     correctitud: "correctitud",
     dfs: "DFS",
@@ -41,7 +42,9 @@
     resiliencia: "resiliencia",
     "selection-sort": "Selection Sort",
     "string-matching": "string matching",
+    subarreglos: "subarreglos",
     "two-sum": "Two Sum",
+    inversiones: "inversiones",
   };
 
   const normalizeTopic = (topic) => topicLabels[topic] || topic.replaceAll("-", " ");
