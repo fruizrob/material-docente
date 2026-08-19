@@ -646,6 +646,36 @@
       "variant": "pauta",
       "contains_solutions": true,
       "publication_status": "published"
+    },
+    {
+      "id": "algoritmos-2026-2-ayudantia-03-invariante-loop",
+      "title": "Ayudantía 03: invariante de loop",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "ayudantia",
+      "topics": ["correctitud", "invariantes"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-ayudantia-03-invariante-loop-enunciado.pdf",
+      "variant": "student",
+      "contains_solutions": "False",
+      "publication_status": "published"
+    },
+    {
+      "id": "algoritmos-2026-2-ayudantia-03-invariante-loop-pauta",
+      "title": "Ayudantía 03: invariante de loop",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "ayudantia",
+      "topics": ["correctitud", "invariantes"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-ayudantia-03-invariante-loop-pauta.pdf",
+      "variant": "pauta",
+      "contains_solutions": "True",
+      "publication_status": "published"
     }
   ]
 }
