@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-08-18",
+  "updated_on": "2026-08-23",
   "materials": [
     {
       "id": "fundamentos-2026-1-set-problemas-logica-proposicional",
@@ -495,6 +495,36 @@
       "path": "algoritmos/2025-2/evaluaciones/algoritmos-2025-2-examen.pdf",
       "variant": "student",
       "contains_solutions": false,
+      "publication_status": "published"
+    },
+    {
+      "id": "algoritmos-2026-2-taller-01-loop-invariant-enunciado",
+      "title": "Taller 01: invariante de loop",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "taller",
+      "topics": ["invariantes", "correctitud"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-taller-01-loop-invariant-enunciado.pdf",
+      "variant": "student",
+      "contains_solutions": false,
+      "publication_status": "published"
+    },
+    {
+      "id": "algoritmos-2026-2-taller-01-loop-invariant-pauta",
+      "title": "Taller 01: invariante de loop",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "taller",
+      "topics": ["invariantes", "correctitud"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-taller-01-loop-invariant-pauta.pdf",
+      "variant": "pauta",
+      "contains_solutions": true,
       "publication_status": "published"
     }
   ]
