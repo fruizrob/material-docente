@@ -647,7 +647,37 @@
       "contains_solutions": true,
       "publication_status": "published"
     },
-    {
+        {
+      "id": "algoritmos-2026-2-ayudantia-02-ecuaciones-recurrencia",
+      "title": "Ayudantía 02: ecuaciones de recurrencia",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "ayudantia",
+      "topics": ["recurrencias"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-ayudantia-02-ecuaciones-recurrencia-enunciado.pdf",
+      "variant": "student",
+      "contains_solutions": "False",
+      "publication_status": "published"
+        },
+        {
+      "id": "algoritmos-2026-2-ayudantia-02-ecuaciones-recurrencia-pauta",
+      "title": "Ayudantía 02: ecuaciones de recurrencia",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "ayudantia",
+      "topics": ["recurrencias"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-ayudantia-02-ecuaciones-recurrencia-pauta.pdf",
+      "variant": "pauta",
+      "contains_solutions": "True",
+      "publication_status": "published"
+        },
+        {
       "id": "algoritmos-2026-2-ayudantia-03-invariante-loop",
       "title": "Ayudantía 03: invariante de loop",
       "course": "ECIN-608",
@@ -661,8 +691,8 @@
       "variant": "student",
       "contains_solutions": "False",
       "publication_status": "published"
-    },
-    {
+        },
+        {
       "id": "algoritmos-2026-2-ayudantia-03-invariante-loop-pauta",
       "title": "Ayudantía 03: invariante de loop",
       "course": "ECIN-608",
@@ -676,6 +706,6 @@
       "variant": "pauta",
       "contains_solutions": "True",
       "publication_status": "published"
-    }
+        }
   ]
 }
