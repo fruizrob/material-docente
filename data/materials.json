@@ -526,6 +526,21 @@
       "variant": "pauta",
       "contains_solutions": true,
       "publication_status": "published"
+    },
+    {
+      "id": "algoritmos-2026-2-taller-02-grafos-enunciado",
+      "title": "Taller 02: grafos",
+      "course": "ECIN-608",
+      "course_slug": "algoritmos",
+      "term": "2026-2",
+      "category": "guias",
+      "type": "taller",
+      "topics": ["grafos"],
+      "format": "pdf",
+      "path": "algoritmos/2026-2/guias/algoritmos-2026-2-taller-02-grafos-enunciado.pdf",
+      "variant": "student",
+      "contains_solutions": false,
+      "publication_status": "published"
     }
   ]
 }
